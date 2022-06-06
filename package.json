@@ -1,6 +1,6 @@
 {
   "name": "create-react-cra",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
@@ -11,6 +11,7 @@
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-github-corner": "^2.5.0",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {

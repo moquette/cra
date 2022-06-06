@@ -1,11 +1,18 @@
+import '../styles/app.scss'
+
+import GithubCorner from 'react-github-corner'
 import {Layout} from './Layout'
 import logo from '../images/logo.svg'
-import '../styles/app.scss'
 
 function App() {
   return (
     <Layout>
       <div className="App">
+        <GithubCorner
+          href="https://github.com/moquette/cra"
+          octoColor="#282c34"
+          bannerColor="#61DAFB"
+        />
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>

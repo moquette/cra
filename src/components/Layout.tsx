@@ -1,7 +1,7 @@
-import {Header} from './Header'
 import {Footer} from './Footer'
+import {Header} from './Header'
 
-interface Props {
+interface LayoutProps {
   withHeader?: boolean
   withFooter?: boolean
   children: JSX.Element
@@ -11,7 +11,7 @@ export const Layout = ({
   withHeader,
   withFooter,
   children,
-}: Props): JSX.Element => {
+}: LayoutProps): JSX.Element => {
   return (
     <>
       {withHeader && <Header />}
