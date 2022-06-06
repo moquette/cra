@@ -35,15 +35,9 @@ The build is minified and the filenames include the hashes.\
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn format`
+### `yarn lint:`
 
-Prettier format files.
-
-### `yarn type-check`
-
-Type checks your code.
-
-### `yarn pre-build`
+Lints, formats and typechecks all files in the `src` directory.
 
 Check the code quality before building the app for production.
 
