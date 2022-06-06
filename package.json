@@ -1,10 +1,10 @@
 {
   "name": "create-react-cra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "build": "yarn pre-build && react-scripts build",
+    "build": "react-scripts build",
     "lint": "npx prettier './{src,webpack}/**/*.{js,jsx,ts,tsx,json,scss,css,md,html}' --write && yarn tsc --noEmit && npx eslint './src/**/*.{ts,tsx}' --fix",
     "postinstall": "husky install"
   },
